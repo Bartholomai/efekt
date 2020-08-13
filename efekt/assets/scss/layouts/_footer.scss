@@ -1,0 +1,16 @@
+.footer {
+  flex-shrink: 0;  
+
+  .menu {
+    list-style: none;
+
+    a:hover {
+      color: $color-primary;
+    }
+  }
+
+  .copyright {
+    font-size: $h6-font-size;
+    line-height: $h6-line-height;
+  }
+}

@@ -1,0 +1,19 @@
+table.media .column-title .media-icon img {
+    width: 100%;
+}
+
+.wp-core-ui .attachments-browser .attachment .thumbnail .centered img[src*='.svg'].icon {
+    width: 80%;
+    height: auto;
+    transform: translate(-50%,-50%) !important;
+}
+
+.wp-core-ui .attachment .filename {
+    -webkit-transition: top .3s;
+    transition: top .3s;
+    top: 100%;
+}
+
+.wp-core-ui .attachment:hover .filename {
+    top: calc(100% - 18px);
+}

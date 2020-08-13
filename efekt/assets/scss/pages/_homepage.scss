@@ -1,0 +1,152 @@
+.main-section {
+  position: relative;
+  height: 18.75rem;
+  padding: 0;
+  background-color: $color-black;
+
+  @include media-breakpoint-up(sm) {
+    height: 21.875rem;
+    padding: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 31.25rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height:37.5rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    height: 50rem;
+  }
+
+  .figure {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+
+    .image {
+      position: absolute;
+      top: 50%;
+      @include transform(translateY(-50%));
+      max-width: 170%;
+      filter: blur(3px);
+
+      @include media-breakpoint-up(md) {
+        max-width: 100%;
+      }
+
+      @include media-breakpoint-up(xl) {
+        top: 50%;
+        @include transform(translateY(-50%));
+      }
+    }
+  }
+
+  .main-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    @include transform(translate(-50%, -50%));
+
+    @include media-breakpoint-up(sm) {
+      top: 50%;
+    }
+
+    .article {
+      br {
+        display: block;
+
+        @include media-breakpoint-up(sm) {
+          display: none;
+        }
+      }
+    }
+
+    .header {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1.125rem;
+      font-weight: 900;
+      line-height: 2.2rem;
+      color: $color-white;
+
+      @include media-breakpoint-up(sm) {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        line-height: 3rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 4rem;
+        line-height: 5.6rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 3.5rem;
+        line-height: 4rem;
+      }
+
+      u {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color-primary;
+      }
+    }
+
+    .text {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: $color-white;
+
+      @include media-breakpoint-up(sm) {
+        margin-bottom: 2rem;
+        font-weight: 700;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}
+
+.section-about {
+  .figure {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: $border-radius;
+    background-color: $color-white;
+    box-shadow: $shadow-box;
+
+    &:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+  .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150%;
+    max-width: initial;
+  }
+
+  .btn-container {
+    display: inline-flex;
+  }
+}
+
+.section-icon {
+  .image {
+    max-width: 7rem;
+  }
+}

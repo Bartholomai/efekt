@@ -1,0 +1,16 @@
+[30-Apr-2020 05:52:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/techtirp/public_html/wp-content/themes/techtir/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/techtirp/public_html/wp-content/themes/techtir/index.php on line 1
+[01-May-2020 23:25:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/techtirp/public_html/wp-content/themes/techtir/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/techtirp/public_html/wp-content/themes/techtir/index.php on line 1
+[04-May-2020 15:00:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/techtirp/public_html/wp-content/themes/techtir/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/techtirp/public_html/wp-content/themes/techtir/index.php on line 1
+[07-May-2020 04:19:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/techtirp/public_html/wp-content/themes/techtir/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/techtirp/public_html/wp-content/themes/techtir/index.php on line 1

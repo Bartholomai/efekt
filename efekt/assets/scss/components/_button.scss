@@ -1,0 +1,86 @@
+.btn {
+  display: inline-flex;
+  vertical-align: bottom;
+  justify-content: center;
+  height: $btn-height;
+  padding: $btn-padding-y $btn-padding-x;
+  appearance: none;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  line-height: $btn-line-height;
+  border-radius: $border-radius;
+  user-select: none;
+  transition: $transition-duration box-shadow, $transition-duration background-color;
+
+  background: $btn-bg;
+  color: $color-interactive;
+  box-shadow: $btn-shadow;
+
+  &:hover {
+    text-decoration: none;
+    background: darken($btn-bg, 4%);
+  }
+
+  &:focus {
+    outline: 0;
+    border: none;
+    background: darken($btn-bg, 4%);
+  }
+
+  &.disabled {
+    color: $color-muted;
+    box-shadow: none;
+    pointer-events: none;
+  }
+
+  &.active {
+    background: $color-muted;
+    color: $color-white;
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .5);
+  }
+}
+
+.btn-primary {
+  color: $color-white;
+  background: $color-interactive;
+  box-shadow: $shadow-btn;
+
+  &:hover {
+    background: $color-interactive;
+    box-shadow: $shadow-btn-hover;
+    color: $color-white;
+  }
+
+  &.disabled {
+    background-color: $color-primary-inactive;
+    color: #ffffff;
+    box-shadow: none;
+  }
+}
+
+.btn-primary-outline {
+  background: transparent;
+  box-shadow: $shadow-btn;
+  border: 1px solid $color-primary;
+  border-radius: $border-radius;
+  color: $color-primary;
+
+  &:hover {
+    background: $color-primary;
+    box-shadow: $shadow-btn-hover;
+    color: $color-white;
+  }
+
+  &.disabled {
+    background-color: $color-interactive;
+    color: #ffffff;
+    box-shadow: none;
+  }
+}
+

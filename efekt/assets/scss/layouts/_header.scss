@@ -1,0 +1,44 @@
+.header-page {
+  background-color: $color-body;
+}
+
+.home {
+  .header-page {
+    background-color: $color-black;
+
+    @include media-breakpoint-up(sm) {
+      position: absolute;
+      z-index: 9;
+      right: 0;
+      left: 0;
+      background-color: transparent;
+    }
+  }
+}
+
+.logo {
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .logo-img {
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+      display: block;
+      max-height: 3rem;
+    }
+  }
+
+  .logo-img-mobile {
+    display: block;
+    max-width: 3.5rem;
+    margin: .5rem 0;
+
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
+  }
+}

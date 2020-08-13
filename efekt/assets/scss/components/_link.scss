@@ -1,0 +1,37 @@
+.link, .link-p a {
+  @include transition(width .3s);
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  vertical-align: middle;
+  color: $color-primary;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    margin: 1px 0 0;
+    background-color: $color-primary;
+    @include transition(width .25s);
+  }
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+
+    &::before {
+      width: 100%;
+    }
+  }
+
+  &--no-hover {
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
+}
