@@ -1,0 +1,22 @@
+{
+  "name": "efekt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --include-path -watch scss efekt/assets/scss -o efekt/css"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bartholomai/efekt.git"
+  },
+  "author": "bartosz klimas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bartholomai/efekt/issues"
+  },
+  "homepage": "https://github.com/Bartholomai/efekt#readme"
+}

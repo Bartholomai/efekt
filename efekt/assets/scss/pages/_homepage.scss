@@ -2,7 +2,6 @@
   position: relative;
   height: 18.75rem;
   padding: 0;
-  background-color: $color-black;
 
   @include media-breakpoint-up(sm) {
     height: 21.875rem;
@@ -69,9 +68,8 @@
       margin-top: 1rem;
       margin-bottom: 1rem;
       font-size: 1.125rem;
-      font-weight: 900;
+      font-weight: 300;
       line-height: 2.2rem;
-      color: $color-white;
 
       @include media-breakpoint-up(sm) {
         margin-top: 1rem;

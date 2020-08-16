@@ -24,5 +24,5 @@ node_modules/
 
 .idea/
 .DS_Store
-public_html/wp-content/themes/techtir/node_modules/
+.vscode/
 
