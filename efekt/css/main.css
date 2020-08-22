@@ -9702,53 +9702,36 @@ a img.aligncenter {
   @media (min-width: 640px) {
     /* line 1, efekt/assets/scss/pages/_homepage.scss */
     .main-section {
-      height: 21.875rem;
+      height: 23rem;
       padding: 0; } }
   @media (min-width: 768px) {
     /* line 1, efekt/assets/scss/pages/_homepage.scss */
     .main-section {
-      height: 31.25rem; } }
+      height: 30rem; } }
   @media (min-width: 1024px) {
     /* line 1, efekt/assets/scss/pages/_homepage.scss */
     .main-section {
-      height: 37.5rem; } }
+      height: 35rem; } }
   @media (min-width: 1280px) {
     /* line 1, efekt/assets/scss/pages/_homepage.scss */
     .main-section {
-      height: 50rem; } }
+      height: 70rem; } }
   /* line 23, efekt/assets/scss/pages/_homepage.scss */
   .main-section .figure {
     position: relative;
     overflow: hidden;
-    height: 100%; }
-    /* line 28, efekt/assets/scss/pages/_homepage.scss */
+    height: 100%;
+    background-size: cover;
+    background-position: center; }
+    /* line 30, efekt/assets/scss/pages/_homepage.scss */
     .main-section .figure .image {
       position: absolute;
-      top: 50%;
-      -moz-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
-      max-width: 170%;
-      filter: blur(3px); }
-      @media (min-width: 768px) {
-        /* line 28, efekt/assets/scss/pages/_homepage.scss */
-        .main-section .figure .image {
-          max-width: 100%; } }
-      @media (min-width: 1280px) {
-        /* line 28, efekt/assets/scss/pages/_homepage.scss */
-        .main-section .figure .image {
-          top: 50%;
-          -moz-transform: translateY(-50%);
-          -o-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); } }
-  /* line 46, efekt/assets/scss/pages/_homepage.scss */
+      top: 0;
+      max-width: 100%; }
+  /* line 37, efekt/assets/scss/pages/_homepage.scss */
   .main-section .main-content {
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     -moz-transform: translate(-50%, -50%);
@@ -9757,17 +9740,17 @@ a img.aligncenter {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
     @media (min-width: 640px) {
-      /* line 46, efekt/assets/scss/pages/_homepage.scss */
+      /* line 37, efekt/assets/scss/pages/_homepage.scss */
       .main-section .main-content {
         top: 50%; } }
-    /* line 58, efekt/assets/scss/pages/_homepage.scss */
+    /* line 49, efekt/assets/scss/pages/_homepage.scss */
     .main-section .main-content .article br {
       display: block; }
       @media (min-width: 640px) {
-        /* line 58, efekt/assets/scss/pages/_homepage.scss */
+        /* line 49, efekt/assets/scss/pages/_homepage.scss */
         .main-section .main-content .article br {
           display: none; } }
-    /* line 67, efekt/assets/scss/pages/_homepage.scss */
+    /* line 58, efekt/assets/scss/pages/_homepage.scss */
     .main-section .main-content .header {
       margin-top: 1rem;
       margin-bottom: 1rem;
@@ -9775,44 +9758,44 @@ a img.aligncenter {
       font-weight: 300;
       line-height: 2.2rem; }
       @media (min-width: 640px) {
-        /* line 67, efekt/assets/scss/pages/_homepage.scss */
+        /* line 58, efekt/assets/scss/pages/_homepage.scss */
         .main-section .main-content .header {
           margin-top: 1rem;
           margin-bottom: 1rem;
           font-size: 2rem;
           line-height: 3rem; } }
       @media (min-width: 768px) {
-        /* line 67, efekt/assets/scss/pages/_homepage.scss */
+        /* line 58, efekt/assets/scss/pages/_homepage.scss */
         .main-section .main-content .header {
           font-size: 4rem;
           line-height: 5.6rem; } }
       @media (min-width: 1024px) {
-        /* line 67, efekt/assets/scss/pages/_homepage.scss */
+        /* line 58, efekt/assets/scss/pages/_homepage.scss */
         .main-section .main-content .header {
           font-size: 3.5rem;
           line-height: 4rem; } }
-      /* line 91, efekt/assets/scss/pages/_homepage.scss */
+      /* line 82, efekt/assets/scss/pages/_homepage.scss */
       .main-section .main-content .header u {
         text-transform: uppercase;
         text-decoration: none;
         color: #1C79BC; }
-    /* line 98, efekt/assets/scss/pages/_homepage.scss */
+    /* line 89, efekt/assets/scss/pages/_homepage.scss */
     .main-section .main-content .text {
       font-size: 1.2rem;
       line-height: 2rem;
       color: #ffffff; }
       @media (min-width: 640px) {
-        /* line 98, efekt/assets/scss/pages/_homepage.scss */
+        /* line 89, efekt/assets/scss/pages/_homepage.scss */
         .main-section .main-content .text {
           margin-bottom: 2rem;
           font-weight: 700; } }
       @media (min-width: 768px) {
-        /* line 98, efekt/assets/scss/pages/_homepage.scss */
+        /* line 89, efekt/assets/scss/pages/_homepage.scss */
         .main-section .main-content .text {
           font-size: 1.5rem;
           line-height: 2rem; } }
 
-/* line 117, efekt/assets/scss/pages/_homepage.scss */
+/* line 108, efekt/assets/scss/pages/_homepage.scss */
 .section-about .figure {
   position: relative;
   overflow: hidden;
@@ -9820,13 +9803,13 @@ a img.aligncenter {
   border-radius: 0.25rem;
   background-color: #ffffff;
   box-shadow: 0 0 1px 0 rgba(23, 52, 110, 0.08), 4px 8px 24px 0 rgba(31, 46, 77, 0.16); }
-  /* line 125, efekt/assets/scss/pages/_homepage.scss */
+  /* line 116, efekt/assets/scss/pages/_homepage.scss */
   .section-about .figure:after {
     content: "";
     display: block;
     padding-bottom: 100%; }
 
-/* line 132, efekt/assets/scss/pages/_homepage.scss */
+/* line 123, efekt/assets/scss/pages/_homepage.scss */
 .section-about .image {
   position: absolute;
   top: 50%;
@@ -9835,11 +9818,11 @@ a img.aligncenter {
   width: 150%;
   max-width: initial; }
 
-/* line 141, efekt/assets/scss/pages/_homepage.scss */
+/* line 132, efekt/assets/scss/pages/_homepage.scss */
 .section-about .btn-container {
   display: inline-flex; }
 
-/* line 147, efekt/assets/scss/pages/_homepage.scss */
+/* line 138, efekt/assets/scss/pages/_homepage.scss */
 .section-icon .image {
   max-width: 7rem; }
 

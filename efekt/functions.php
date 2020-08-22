@@ -440,9 +440,9 @@ add_action('wp_print_scripts', 'html5blank_conditional_scripts'); // Add Conditi
 add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comments
 add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
-add_action('init', 'create_post_type_realizations'); // Add realizations Custom Post Type
-add_action('init', 'create_post_type_services'); // Add services Custom Post Type
-add_action('init', 'create_post_type_chiptuning'); // Add chiptuning Custom Post Type
+
+add_action('init', 'manufacturer_post_type', 0 );
+
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
 
@@ -500,124 +500,51 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 	Custom Post Types
 \*------------------------------------*/
 
-// Create Custom Post type, called HTML5-Blank - programing
-function create_post_type_services()
-{
-    register_taxonomy_for_object_type('category', 'services'); // Register Taxonomies for Category
-    register_taxonomy_for_object_type('post_tag', 'services');
-    register_post_type('programowanie', // Register Custom Post Type
-        array(
-        'labels' => array(
-            'name' => __('Programowanie', 'html5blank'), // Rename these to suit
-            'singular_name' => __('Usługi', 'html5blank'),
-            'add_new' => __('Dodaj nową', 'html5blank'),
-            'add_new_item' => __('Dodaj nową usługę', 'html5blank'),
-            'edit' => __('Edytuj', 'html5blank'),
-            'edit_item' => __('Edytuj usługę', 'html5blank'),
-            'new_item' => __('Nowa usługa', 'html5blank'),
-            'view' => __('Zobacz usługę', 'html5blank'),
-            'view_item' => __('Zobacz usługę', 'html5blank'),
-            'search_items' => __('Szukaj usługi', 'html5blank'),
-            'not_found' => __('Nie znaleziono żadnej usługi', 'html5blank'),
-            'not_found_in_trash' => __('Nie znaleziono żadnej usługi w koszu', 'html5blank')
-        ),
-        'public' => true,
-        'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages
-        'has_archive' => true,
-        'supports' => array(
-            'title',
-            'editor',
-            'excerpt',
-            'thumbnail'
-        ), // Go to Dashboard Custom HTML5 Blank post for supports
-        'can_export' => true, // Allows export in Tools > Export
-        'taxonomies' => array(
-            'post_tag',
-            'category'
-        ), // Add Category and Post Tags support
-        'menu_position'       => 4,
-        'menu_icon' => 'dashicons-media-code'
-    ));
-}
+// Create Custom Post type - manufacturer
+function manufacturer_post_type() {
+	$labels = array(
+			'name'                => 'Producenci',
+			'singular_name'       => 'Producenci',
+			'menu_name'           => 'Producenci',
+			'parent_item_colon'   => 'Nadrzędna',
+			'all_items'           => 'Wszyscy producenci',
+			'view_item'           => 'Zobacz producenta',
+			'add_new_item'        => 'Dodaj producenta',
+			'add_new'             => 'Dodaj producenta',
+			'edit_item'           => 'Edytuj producenta',
+			'update_item'         => 'Aktualizuj',
+			'search_items'        => 'Szukaj',
+			'not_found'           => 'Nie znaleziono',
+			'not_found_in_trash'  => 'Nie znaleziono'
+	); 
+	$args = array(
+			'label' => 'manufacturer',
+			'rewrite' => array(
+					'slug' => 'aplikacje'
+			),
+			'description'         => 'Producenci',
+			'labels'              => $labels,
+			'show_in_rest' 				=> true,
+			'supports'            => array( 'title', 'thumbnail', 'editor'),
+			'taxonomies'          => array(),
+			'hierarchical'        => false,
+			'public'              => true, 
+			'show_ui'             => true,
+			'show_in_menu'        => true,
+			'show_in_nav_menus'   => true,
+			'show_in_admin_bar'   => true,
+			'menu_position'       => 4,
+			'menu_icon'           => 'dashicons-id-alt',
+			'can_export'          => true,
+			'has_archive'         => false,
+			'exclude_from_search' => false,
+			'publicly_queryable'  => true,
+			'capability_type'     => 'post',
+	);
+    register_post_type( 'manufacturer', $args );
+} 
 
-function create_post_type_chiptuning()
-{
-    register_taxonomy_for_object_type('category', 'chiptuning'); // Register Taxonomies for Category
-    register_taxonomy_for_object_type('post_tag', 'chiptuning');
-    register_post_type('chiptuning', // Register Custom Post Type
-        array(
-        'labels' => array(
-            'name' => __('Chiptuning', 'html5blank'), // Rename these to suit
-            'singular_name' => __('Usługi', 'html5blank'),
-            'add_new' => __('Dodaj nowy', 'html5blank'),
-            'add_new_item' => __('Dodaj nowy chiptuning', 'html5blank'),
-            'edit' => __('Edytuj', 'html5blank'),
-            'edit_item' => __('Edytuj chiptuning', 'html5blank'),
-            'new_item' => __('Nowy chiptuning', 'html5blank'),
-            'view' => __('Zobacz chiptuning', 'html5blank'),
-            'view_item' => __('Zobacz chiptuning', 'html5blank'),
-            'search_items' => __('Szukaj chiptuningu', 'html5blank'),
-            'not_found' => __('Nie znaleziono żadnego chiptuning', 'html5blank'),
-            'not_found_in_trash' => __('Nie znaleziono żadnego chiptuning w koszu', 'html5blank')
-        ),
-        'public' => true,
-        'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages
-        'has_archive' => true,
-        'supports' => array(
-            'title',
-            'editor',
-            'excerpt',
-            'thumbnail'
-        ), // Go to Dashboard Custom HTML5 Blank post for supports
-        'can_export' => true, // Allows export in Tools > Export
-        'taxonomies' => array(
-            'post_tag',
-            'category'
-        ), // Add Category and Post Tags support
-        'menu_position'       => 5,
-        'menu_icon' => 'dashicons-chart-line'
-    ));
-}
 
-// Create Custom Post type, called HTML5-Blank - realizations
-function create_post_type_realizations()
-{
-    register_taxonomy_for_object_type('category', 'realizations'); // Register Taxonomies for Category
-    register_taxonomy_for_object_type('post_tag', 'realizations');
-    register_post_type('realizacje', // Register Custom Post Type
-        array(
-        'labels' => array(
-            'name' => __('Realizacje', 'html5blank'), // Rename these to suit
-            'singular_name' => __('Realizacje', 'html5blank'),
-            'add_new' => __('Dodaj nową', 'html5blank'),
-            'add_new_item' => __('Dodaj nową reazlizację', 'html5blank'),
-            'edit' => __('Edytuj', 'html5blank'),
-            'edit_item' => __('Edytuj realizację', 'html5blank'),
-            'new_item' => __('Nowa realizacja', 'html5blank'),
-            'view' => __('Zobacz realizację', 'html5blank'),
-            'view_item' => __('Zobacz realizację', 'html5blank'),
-            'search_items' => __('Szukaj realizacji', 'html5blank'),
-            'not_found' => __('Nie znaleziono żadnej realizacji', 'html5blank'),
-            'not_found_in_trash' => __('Nie znaleziono żadnej realizacji w koszu', 'html5blank')
-        ),
-        'public' => true,
-        'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages
-        'has_archive' => true,
-        'supports' => array(
-            'title',
-            'editor',
-            'excerpt',
-            'thumbnail'
-        ), // Go to Dashboard Custom HTML5 Blank post for supports
-        'can_export' => true, // Allows export in Tools > Export
-        'taxonomies' => array(
-            'post_tag',
-            'category'
-        ), // Add Category and Post Tags support
-        'menu_position'       => 6,
-        'menu_icon' => 'dashicons-carrot'
-    ));
-}
 
 /*------------------------------------*\
 	ShortCode Functions

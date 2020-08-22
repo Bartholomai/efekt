@@ -16,6 +16,10 @@
     border: none;
   }
 
+  &.open {
+    left: 0;
+  }
+
   .nav-container {
     display: none;
 

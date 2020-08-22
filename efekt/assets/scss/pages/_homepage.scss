@@ -4,48 +4,39 @@
   padding: 0;
 
   @include media-breakpoint-up(sm) {
-    height: 21.875rem;
+    height: 23rem;
     padding: 0;
   }
 
   @include media-breakpoint-up(md) {
-    height: 31.25rem;
+    height: 30rem;
   }
 
   @include media-breakpoint-up(lg) {
-    height:37.5rem;
+    height:35rem;
   }
 
   @include media-breakpoint-up(xl) {
-    height: 50rem;
+    height: 70rem;
   }
 
   .figure {
     position: relative;
     overflow: hidden;
     height: 100%;
+    background-size: cover;
+    background-position: center;
 
     .image {
       position: absolute;
-      top: 50%;
-      @include transform(translateY(-50%));
-      max-width: 170%;
-      filter: blur(3px);
-
-      @include media-breakpoint-up(md) {
-        max-width: 100%;
-      }
-
-      @include media-breakpoint-up(xl) {
-        top: 50%;
-        @include transform(translateY(-50%));
-      }
+      top: 0;
+      max-width: 100%;
     }
   }
 
   .main-content {
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     @include transform(translate(-50%, -50%));

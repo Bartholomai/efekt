@@ -1,14 +1,11 @@
 (function($) {
-  $('#toggle').toggle(
-    function() {
-      $('#nav').animate({ left: 0 }, 'slow', function() {
-        $('#toggle').html('<a class="hamburger hamburger-close"></a>');
-      });
-    },
-    function() {
-      $('#nav').animate({ left: -240 }, 'slow', function() {
-        $('#toggle').html('<a class="hamburger"></a>');
-      });
-    }
-  );
+  const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('.nav');
+
+  const handleClick = () => {
+    hamburger.classList.toggle('hamburger-close');
+    nav.classList.toggle('open');
+  }
+
+  hamburger.addEventListener('click', handleClick);
 })(jQuery);
