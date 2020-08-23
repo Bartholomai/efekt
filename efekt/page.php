@@ -9,7 +9,7 @@
                 <?php the_post_thumbnail('oryginal', array('class' => 'image')); ?>
               </figure>
               <article id="post-<?php the_ID(); ?>" class="article" <?php post_class(); ?>>
-                <header>
+                <header class="mb-8">
                   <h1><?php the_title(); ?></h1>
                 </header>
                 <?php the_content(); ?>

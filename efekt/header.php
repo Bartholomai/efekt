@@ -13,13 +13,12 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
 		<?php wp_head(); ?>
-		<script>    
+		<script>
       conditionizr.config({
           assets: '<?php echo get_template_directory_uri(); ?>',
           tests: {}
       });
     </script>
-
 	</head>
 	<body <?php body_class(); ?>>
     <header class="header-page clear" role="banner">
@@ -35,9 +34,9 @@
             <nav id="nav" class="nav" role="navigation">
               <?php html5blank_nav(); ?>
             </nav>
-            <span id="toggle" class="toggle">
-              <a class="hamburger"></a>
-            </span>
+            <a id="toggle" class="toggle">
+              <span class="hamburger"></span>
+            </a>
           </div>
         </div>
       </div>

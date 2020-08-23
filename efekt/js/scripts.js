@@ -1,11 +1,13 @@
-(function ($, root, undefined) {
-
-	$(function () {
-
-		'use strict';
-
-		// DOM ready, take it away
-
-	});
-
-})(jQuery, this);
+window.onload=function(){
+	(function($) {
+		const hamburger = document.querySelector('.toggle');
+		const nav = document.querySelector('.nav');
+	
+		const handleClick = () => {
+		hamburger.classList.toggle('open');
+		nav.classList.toggle('open');
+		}
+	
+		hamburger.addEventListener('click', handleClick);
+	})(jQuery);
+}

@@ -1,9 +1,9 @@
 (function($) {
-  const hamburger = document.querySelector('.hamburger');
+  const hamburger = document.querySelector('.toggle');
   const nav = document.querySelector('.nav');
 
   const handleClick = () => {
-    hamburger.classList.toggle('hamburger-close');
+    hamburger.classList.toggle('open');
     nav.classList.toggle('open');
   }
 

@@ -1,4 +1,17 @@
+.page {
+  .header-page {
+    border-bottom: 1px solid $color-border;
+  }
+
+  &.home {
+    .header-page {
+      border-bottom: 1pc solid transparent;
+    }
+  }
+}
+
 .nav {
+  transition: left .3s ease-in-out;
   position: absolute;
   top: 4.5rem;
   bottom: 0;
@@ -65,7 +78,7 @@
     font-size: 1.125rem;
     font-weight: $font-weight-bold;
     line-height: 4rem;
-    color: $color-white;
+    color: $color-black;
 
     &:hover {
       color: $color-primary;
@@ -75,7 +88,6 @@
 }
 
 .toggle {
-  display: inline-block;
   width: 1.875rem;
   height: 1.875rem;
   float: right;
@@ -143,18 +155,20 @@
     }
   }
 
-  .hamburger-close {
-    background-color: transparent;
-
-    &::before {
-      top: 0;
-      margin-right: -1.25rem;
-      transform: rotate(45deg);
-    }
-
-    &::after {
-      top: 0;
-      transform: rotate(-45deg);
+  &.open {
+    .hamburger {
+      background-color: transparent;
+  
+      &::before {
+        top: 0;
+        margin-right: -1.25rem;
+        transform: rotate(45deg);
+      }
+  
+      &::after {
+        top: 0;
+        transform: rotate(-45deg);
+      }
     }
   }
 }

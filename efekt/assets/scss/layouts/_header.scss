@@ -2,7 +2,7 @@
   .header-page {
     background-color: $color-black;
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
       position: absolute;
       z-index: 9;
       right: 0;
@@ -13,7 +13,7 @@
 }
 
 .logo {
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     display: flex;
     align-items: center;
     height: 100%;
@@ -22,7 +22,7 @@
   .logo-img {
     display: none;
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
       display: block;
       max-height: 3rem;
     }
@@ -33,7 +33,7 @@
     max-width: 3.5rem;
     margin: .5rem 0;
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
       display: none;
     }
   }

@@ -8,11 +8,14 @@
   text-rendering:optimizeLegibility;
 }
 
-html {
-  font-size: 16px;
+html, body {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
   height: 100%;
-  min-height: 100%;
+  font-size: 16px;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -77,14 +80,14 @@ a {
 input {
   &:focus {
     outline: 0;
-    border: 1px solid #04A4CC;
+    border: 1px solid $color-primary;
   }
 }
 
 ::selection,
 ::-webkit-selection,
 ::-moz-selection {
-  background:#04A4CC;
-  color:#FFF;
+  background:$color-primary;
+  color:$color-white;
   text-shadow:none;
 }
