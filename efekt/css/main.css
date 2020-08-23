@@ -9328,7 +9328,7 @@ a img.aligncenter {
     transition: color .3s;
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 4rem;
+    line-height: 5rem;
     color: #000000; }
     /* line 71, efekt/assets/scss/components/_nav.scss */
     .nav a:hover {
@@ -9657,7 +9657,8 @@ a img.aligncenter {
 
 /* line 2, efekt/assets/scss/layouts/_header.scss */
 .home .header-page {
-  background-color: #000000; }
+  background-color: #000000;
+  border-bottom: 1px solid transparent; }
   @media (min-width: 768px) {
     /* line 2, efekt/assets/scss/layouts/_header.scss */
     .home .header-page {
@@ -9667,29 +9668,33 @@ a img.aligncenter {
       left: 0;
       background-color: transparent; } }
 
+/* line 16, efekt/assets/scss/layouts/_header.scss */
+.header-page {
+  border-bottom: 1px solid #eeeeee; }
+
 @media (min-width: 768px) {
-  /* line 15, efekt/assets/scss/layouts/_header.scss */
+  /* line 20, efekt/assets/scss/layouts/_header.scss */
   .logo {
     display: flex;
     align-items: center;
     height: 100%; } }
 
-/* line 22, efekt/assets/scss/layouts/_header.scss */
+/* line 27, efekt/assets/scss/layouts/_header.scss */
 .logo .logo-img {
   display: none; }
   @media (min-width: 768px) {
-    /* line 22, efekt/assets/scss/layouts/_header.scss */
+    /* line 27, efekt/assets/scss/layouts/_header.scss */
     .logo .logo-img {
       display: block;
       max-height: 3rem; } }
 
-/* line 31, efekt/assets/scss/layouts/_header.scss */
+/* line 36, efekt/assets/scss/layouts/_header.scss */
 .logo .logo-img-mobile {
   display: block;
   max-width: 3.5rem;
   margin: .5rem 0; }
   @media (min-width: 768px) {
-    /* line 31, efekt/assets/scss/layouts/_header.scss */
+    /* line 36, efekt/assets/scss/layouts/_header.scss */
     .logo .logo-img-mobile {
       display: none; } }
 
@@ -9850,9 +9855,3 @@ a img.aligncenter {
   background-image: url("/wp-content/uploads/2020/05/techtir-main-bg.png");
   background-size: cover;
   background-repeat: no-repeat; }
-
-/* line 2, efekt/assets/scss/pages/_single.scss */
-.chiptuning .card {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2rem; }

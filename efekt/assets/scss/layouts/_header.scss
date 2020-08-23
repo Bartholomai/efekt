@@ -1,6 +1,7 @@
 .home {
   .header-page {
     background-color: $color-black;
+    border-bottom: 1px solid transparent;
 
     @include media-breakpoint-up(md) {
       position: absolute;
@@ -10,6 +11,10 @@
       background-color: transparent;
     }
   }
+}
+
+.header-page {
+  border-bottom: 1px solid $color-border;
 }
 
 .logo {
