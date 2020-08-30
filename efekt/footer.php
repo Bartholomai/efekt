@@ -6,10 +6,10 @@
 						<?php html5blank_nav(); ?>
 					</div>
 					<div class="col-12 col-md-4">
-						<?php the_field('footer_contact_data_column_1'); ?>
+						
 					</div>
 					<div class="col-12 col-md-4">
-						<?php the_field('footer_contact_data_column_2'); ?>
+						
 					</div>
 				</div>
 				<div class="row">
