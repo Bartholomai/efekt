@@ -105,6 +105,7 @@ $spacers: (
     2: $gap-2,
     3: $gap-3,
     4: $gap-4,
+    5: $gap-5,
     6: $gap-6,
     8: $gap-8,
     10: $gap-10,
@@ -211,6 +212,16 @@ $utilities: (
       1: 1%,
       100: 100%,
       auto: auto
+    )
+  ),
+  "height": (
+    property: height,
+    class: h,
+    values: (
+      1: 1%,
+      100: 100%,
+      auto: auto,
+      8: $gap-8
     )
   ),
   // Flex utilities

@@ -19,6 +19,7 @@
         </article>
       </div>
     </section>
+    
     <section class="section-icon pt-sm-12 my-sm-12 my-md-16">
       <div class="container">
         <div class="row">
@@ -40,6 +41,19 @@
             <a href="/o-nas" class="btn btn-primary-outline">Więcej</a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section-icon pt-sm-12 my-sm-12 my-md-16">
+      <div class="container">
+        <div class="row">
+          <ul>
+            <?php wp_list_categories( array(
+                'taxonomy'    > 'producenci',
+                'orderby'    => 'ASC',                              
+            ) ); ?> 
+          </ul>
+        </div>  
       </div>
     </section>
   </main>

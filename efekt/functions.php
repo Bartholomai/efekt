@@ -505,47 +505,52 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 // Create Custom Post type - manufacturer
 function manufacturer_post_type() {
 	$labels = array(
-			'name'                => 'Producenci',
-			'singular_name'       => 'Producenci',
-			'menu_name'           => 'Producenci',
-			'parent_item_colon'   => 'Nadrzędna',
-			'all_items'           => 'Wszyscy producenci',
-			'view_item'           => 'Zobacz producenta',
-			'add_new_item'        => 'Dodaj producenta',
-			'add_new'             => 'Dodaj producenta',
-			'edit_item'           => 'Edytuj producenta',
-			'update_item'         => 'Aktualizuj',
-			'search_items'        => 'Szukaj',
-			'not_found'           => 'Nie znaleziono',
-			'not_found_in_trash'  => 'Nie znaleziono'
+        'name'                => 'Producenci',
+        'singular_name'       => 'Producenci',
+        'menu_name'           => 'Producenci',
+        'parent_item_colon'   => 'Nadrzędna',
+        'all_items'           => 'Wszyscy producenci',
+        'view_item'           => 'Zobacz producenta',
+        'add_new_item'        => 'Dodaj producenta',
+        'add_new'             => 'Dodaj producenta',
+        'edit_item'           => 'Edytuj producenta',
+        'update_item'         => 'Aktualizuj',
+        'search_items'        => 'Szukaj',
+        'not_found'           => 'Nie znaleziono',
+        'not_found_in_trash'  => 'Nie znaleziono'
 	); 
 	$args = array(
-			'label' => 'manufacturer',
-			'rewrite' => array(
-					'slug' => 'producenci'
-			),
-			'description'         => 'Producenci',
-			'labels'              => $labels,
-			'show_in_rest' 				=> true,
-			'supports'            => array( 'title', 'thumbnail', 'editor'),
-			'taxonomies'          => array(
-                'category'
-            ),
-			'hierarchical'        => true,
-			'public'              => true, 
-			'show_ui'             => true,
-			'show_in_menu'        => true,
-			'show_in_nav_menus'   => true,
-			'show_in_admin_bar'   => true,
-			'menu_position'       => 2,
-			'menu_icon'           => 'dashicons-carrot',
-			'can_export'          => true,
-			'has_archive'         => false,
-			'exclude_from_search' => false,
-			'publicly_queryable'  => true,
-			'capability_type'     => 'post',
-	);
-    register_post_type( 'manufacturer', $args );
+        'orderby'           => 'name', 
+        'order'             => 'ASC',
+        'label' => 'manufacturer',
+        'rewrite' => array(
+                'slug' => 'producenci'
+        ),
+        'description'         => 'Producenci',
+        'labels'              => $labels,
+        'show_in_rest' 				=> true,
+        'supports'            => array( 'title', 'thumbnail', 'editor'),
+        'taxonomies' => array(
+            'post_tag',
+            'category'
+        ),
+        'hierarchical'        => true,
+        'public'              => true, 
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 2,
+        'menu_icon'           => 'dashicons-carrot',
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+    );
+    register_taxonomy_for_object_type('chuj', 'manufacturer');
+    register_taxonomy_for_object_type('post_tag', 'manufacturer');
+    register_post_type( 'producenci', $args );
 } 
 
 

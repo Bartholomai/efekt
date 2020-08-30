@@ -161,6 +161,38 @@ Grid mixins
   width: auto !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.h-1 {
+  height: 1%; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.h-1 {
+  height: 1% !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.h-100 {
+  height: 100%; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.h-100 {
+  height: 100% !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.h-auto {
+  height: auto; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.h-auto {
+  height: auto !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.h-8 {
+  height: 2rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.h-8 {
+  height: 2rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .flex-fill {
   flex: 1 1 auto; }
 
@@ -457,6 +489,14 @@ Grid mixins
   margin: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.m-5 {
+  margin: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.m-5 {
+  margin: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .m-6 {
   margin: 1.5rem; }
 
@@ -569,6 +609,16 @@ Grid mixins
 .mx-4 {
   margin-right: 1rem !important;
   margin-left: 1rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.mx-5 {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.mx-5 {
+  margin-right: 1.25rem !important;
+  margin-left: 1.25rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .mx-6 {
@@ -701,6 +751,16 @@ Grid mixins
   margin-bottom: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.my-5 {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
@@ -821,6 +881,14 @@ Grid mixins
   margin-top: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.mt-5 {
+  margin-top: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.mt-5 {
+  margin-top: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .mt-6 {
   margin-top: 1.5rem; }
 
@@ -923,6 +991,14 @@ Grid mixins
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
 .mr-4 {
   margin-right: 1rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.mr-5 {
+  margin-right: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.mr-5 {
+  margin-right: 1.25rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .mr-6 {
@@ -1029,6 +1105,14 @@ Grid mixins
   margin-bottom: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.mb-5 {
+  margin-bottom: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.mb-5 {
+  margin-bottom: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .mb-6 {
   margin-bottom: 1.5rem; }
 
@@ -1131,6 +1215,14 @@ Grid mixins
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
 .ml-4 {
   margin-left: 1rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.ml-5 {
+  margin-left: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.ml-5 {
+  margin-left: 1.25rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .ml-6 {
@@ -1237,6 +1329,14 @@ Grid mixins
   padding: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.p-5 {
+  padding: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.p-5 {
+  padding: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .p-6 {
   padding: 1.5rem; }
 
@@ -1341,6 +1441,16 @@ Grid mixins
 .px-4 {
   padding-right: 1rem !important;
   padding-left: 1rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.px-5 {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.px-5 {
+  padding-right: 1.25rem !important;
+  padding-left: 1.25rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .px-6 {
@@ -1463,6 +1573,16 @@ Grid mixins
   padding-bottom: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.py-5 {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
@@ -1573,6 +1693,14 @@ Grid mixins
   padding-top: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.pt-5 {
+  padding-top: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.pt-5 {
+  padding-top: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .pt-6 {
   padding-top: 1.5rem; }
 
@@ -1667,6 +1795,14 @@ Grid mixins
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
 .pr-4 {
   padding-right: 1rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.pr-5 {
+  padding-right: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.pr-5 {
+  padding-right: 1.25rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .pr-6 {
@@ -1765,6 +1901,14 @@ Grid mixins
   padding-bottom: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.pb-5 {
+  padding-bottom: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.pb-5 {
+  padding-bottom: 1.25rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .pb-6 {
   padding-bottom: 1.5rem; }
 
@@ -1859,6 +2003,14 @@ Grid mixins
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
 .pl-4 {
   padding-left: 1rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.pl-5 {
+  padding-left: 1.25rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.pl-5 {
+  padding-left: 1.25rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .pl-6 {
@@ -2572,6 +2724,12 @@ Grid mixins
   .m-sm-4 {
     margin: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .m-sm-5 {
+    margin: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .m-sm-5 {
+    margin: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .m-sm-6 {
     margin: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -2659,6 +2817,14 @@ Grid mixins
   .mx-sm-4 {
     margin-right: 1rem !important;
     margin-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mx-sm-5 {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mx-sm-5 {
+    margin-right: 1.25rem !important;
+    margin-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mx-sm-6 {
     margin-right: 1.5rem;
@@ -2764,6 +2930,14 @@ Grid mixins
     margin-top: 1rem !important;
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .my-sm-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .my-sm-5 {
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .my-sm-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -2858,6 +3032,12 @@ Grid mixins
   .mt-sm-4 {
     margin-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mt-sm-5 {
+    margin-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mt-sm-5 {
+    margin-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mt-sm-6 {
     margin-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -2935,6 +3115,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .mr-sm-4 {
     margin-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mr-sm-5 {
+    margin-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mr-sm-5 {
+    margin-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mr-sm-6 {
     margin-right: 1.5rem; }
@@ -3014,6 +3200,12 @@ Grid mixins
   .mb-sm-4 {
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mb-sm-5 {
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mb-sm-5 {
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mb-sm-6 {
     margin-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -3092,6 +3284,12 @@ Grid mixins
   .ml-sm-4 {
     margin-left: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .ml-sm-5 {
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .ml-sm-5 {
+    margin-left: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .ml-sm-6 {
     margin-left: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -3169,6 +3367,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .p-sm-4 {
     padding: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .p-sm-5 {
+    padding: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .p-sm-5 {
+    padding: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .p-sm-6 {
     padding: 1.5rem; }
@@ -3251,6 +3455,14 @@ Grid mixins
   .px-sm-4 {
     padding-right: 1rem !important;
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .px-sm-5 {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .px-sm-5 {
+    padding-right: 1.25rem !important;
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .px-sm-6 {
     padding-right: 1.5rem;
@@ -3348,6 +3560,14 @@ Grid mixins
     padding-top: 1rem !important;
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .py-sm-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .py-sm-5 {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .py-sm-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; }
@@ -3434,6 +3654,12 @@ Grid mixins
   .pt-sm-4 {
     padding-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pt-sm-5 {
+    padding-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pt-sm-5 {
+    padding-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pt-sm-6 {
     padding-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -3505,6 +3731,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pr-sm-4 {
     padding-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pr-sm-5 {
+    padding-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pr-sm-5 {
+    padding-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pr-sm-6 {
     padding-right: 1.5rem; }
@@ -3578,6 +3810,12 @@ Grid mixins
   .pb-sm-4 {
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pb-sm-5 {
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pb-sm-5 {
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pb-sm-6 {
     padding-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -3649,6 +3887,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pl-sm-4 {
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pl-sm-5 {
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pl-sm-5 {
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pl-sm-6 {
     padding-left: 1.5rem; }
@@ -3934,6 +4178,12 @@ Grid mixins
   .m-md-4 {
     margin: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .m-md-5 {
+    margin: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .m-md-5 {
+    margin: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .m-md-6 {
     margin: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -4021,6 +4271,14 @@ Grid mixins
   .mx-md-4 {
     margin-right: 1rem !important;
     margin-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mx-md-5 {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mx-md-5 {
+    margin-right: 1.25rem !important;
+    margin-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mx-md-6 {
     margin-right: 1.5rem;
@@ -4126,6 +4384,14 @@ Grid mixins
     margin-top: 1rem !important;
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .my-md-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .my-md-5 {
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .my-md-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -4220,6 +4486,12 @@ Grid mixins
   .mt-md-4 {
     margin-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mt-md-5 {
+    margin-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mt-md-5 {
+    margin-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mt-md-6 {
     margin-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -4297,6 +4569,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .mr-md-4 {
     margin-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mr-md-5 {
+    margin-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mr-md-5 {
+    margin-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mr-md-6 {
     margin-right: 1.5rem; }
@@ -4376,6 +4654,12 @@ Grid mixins
   .mb-md-4 {
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mb-md-5 {
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mb-md-5 {
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mb-md-6 {
     margin-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -4454,6 +4738,12 @@ Grid mixins
   .ml-md-4 {
     margin-left: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .ml-md-5 {
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .ml-md-5 {
+    margin-left: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .ml-md-6 {
     margin-left: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -4531,6 +4821,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .p-md-4 {
     padding: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .p-md-5 {
+    padding: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .p-md-5 {
+    padding: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .p-md-6 {
     padding: 1.5rem; }
@@ -4613,6 +4909,14 @@ Grid mixins
   .px-md-4 {
     padding-right: 1rem !important;
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .px-md-5 {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .px-md-5 {
+    padding-right: 1.25rem !important;
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .px-md-6 {
     padding-right: 1.5rem;
@@ -4710,6 +5014,14 @@ Grid mixins
     padding-top: 1rem !important;
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .py-md-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .py-md-5 {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .py-md-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; }
@@ -4796,6 +5108,12 @@ Grid mixins
   .pt-md-4 {
     padding-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pt-md-5 {
+    padding-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pt-md-5 {
+    padding-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pt-md-6 {
     padding-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -4867,6 +5185,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pr-md-4 {
     padding-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pr-md-5 {
+    padding-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pr-md-5 {
+    padding-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pr-md-6 {
     padding-right: 1.5rem; }
@@ -4940,6 +5264,12 @@ Grid mixins
   .pb-md-4 {
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pb-md-5 {
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pb-md-5 {
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pb-md-6 {
     padding-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -5011,6 +5341,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pl-md-4 {
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pl-md-5 {
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pl-md-5 {
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pl-md-6 {
     padding-left: 1.5rem; }
@@ -5296,6 +5632,12 @@ Grid mixins
   .m-lg-4 {
     margin: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .m-lg-5 {
+    margin: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .m-lg-5 {
+    margin: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .m-lg-6 {
     margin: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -5383,6 +5725,14 @@ Grid mixins
   .mx-lg-4 {
     margin-right: 1rem !important;
     margin-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mx-lg-5 {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mx-lg-5 {
+    margin-right: 1.25rem !important;
+    margin-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mx-lg-6 {
     margin-right: 1.5rem;
@@ -5488,6 +5838,14 @@ Grid mixins
     margin-top: 1rem !important;
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .my-lg-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .my-lg-5 {
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .my-lg-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -5582,6 +5940,12 @@ Grid mixins
   .mt-lg-4 {
     margin-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mt-lg-5 {
+    margin-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mt-lg-5 {
+    margin-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mt-lg-6 {
     margin-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -5659,6 +6023,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .mr-lg-4 {
     margin-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mr-lg-5 {
+    margin-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mr-lg-5 {
+    margin-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mr-lg-6 {
     margin-right: 1.5rem; }
@@ -5738,6 +6108,12 @@ Grid mixins
   .mb-lg-4 {
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mb-lg-5 {
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mb-lg-5 {
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mb-lg-6 {
     margin-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -5816,6 +6192,12 @@ Grid mixins
   .ml-lg-4 {
     margin-left: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .ml-lg-5 {
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .ml-lg-5 {
+    margin-left: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .ml-lg-6 {
     margin-left: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -5893,6 +6275,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .p-lg-4 {
     padding: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .p-lg-5 {
+    padding: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .p-lg-5 {
+    padding: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .p-lg-6 {
     padding: 1.5rem; }
@@ -5975,6 +6363,14 @@ Grid mixins
   .px-lg-4 {
     padding-right: 1rem !important;
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .px-lg-5 {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .px-lg-5 {
+    padding-right: 1.25rem !important;
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .px-lg-6 {
     padding-right: 1.5rem;
@@ -6072,6 +6468,14 @@ Grid mixins
     padding-top: 1rem !important;
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .py-lg-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .py-lg-5 {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .py-lg-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; }
@@ -6158,6 +6562,12 @@ Grid mixins
   .pt-lg-4 {
     padding-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pt-lg-5 {
+    padding-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pt-lg-5 {
+    padding-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pt-lg-6 {
     padding-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -6229,6 +6639,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pr-lg-4 {
     padding-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pr-lg-5 {
+    padding-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pr-lg-5 {
+    padding-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pr-lg-6 {
     padding-right: 1.5rem; }
@@ -6302,6 +6718,12 @@ Grid mixins
   .pb-lg-4 {
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pb-lg-5 {
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pb-lg-5 {
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pb-lg-6 {
     padding-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -6373,6 +6795,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pl-lg-4 {
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pl-lg-5 {
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pl-lg-5 {
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pl-lg-6 {
     padding-left: 1.5rem; }
@@ -6658,6 +7086,12 @@ Grid mixins
   .m-xl-4 {
     margin: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .m-xl-5 {
+    margin: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .m-xl-5 {
+    margin: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .m-xl-6 {
     margin: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -6745,6 +7179,14 @@ Grid mixins
   .mx-xl-4 {
     margin-right: 1rem !important;
     margin-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mx-xl-5 {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mx-xl-5 {
+    margin-right: 1.25rem !important;
+    margin-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mx-xl-6 {
     margin-right: 1.5rem;
@@ -6850,6 +7292,14 @@ Grid mixins
     margin-top: 1rem !important;
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .my-xl-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .my-xl-5 {
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .my-xl-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -6944,6 +7394,12 @@ Grid mixins
   .mt-xl-4 {
     margin-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mt-xl-5 {
+    margin-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mt-xl-5 {
+    margin-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mt-xl-6 {
     margin-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -7021,6 +7477,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .mr-xl-4 {
     margin-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mr-xl-5 {
+    margin-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mr-xl-5 {
+    margin-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mr-xl-6 {
     margin-right: 1.5rem; }
@@ -7100,6 +7562,12 @@ Grid mixins
   .mb-xl-4 {
     margin-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mb-xl-5 {
+    margin-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mb-xl-5 {
+    margin-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .mb-xl-6 {
     margin-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -7178,6 +7646,12 @@ Grid mixins
   .ml-xl-4 {
     margin-left: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .ml-xl-5 {
+    margin-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .ml-xl-5 {
+    margin-left: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .ml-xl-6 {
     margin-left: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -7255,6 +7729,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .p-xl-4 {
     padding: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .p-xl-5 {
+    padding: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .p-xl-5 {
+    padding: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .p-xl-6 {
     padding: 1.5rem; }
@@ -7337,6 +7817,14 @@ Grid mixins
   .px-xl-4 {
     padding-right: 1rem !important;
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .px-xl-5 {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .px-xl-5 {
+    padding-right: 1.25rem !important;
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .px-xl-6 {
     padding-right: 1.5rem;
@@ -7434,6 +7922,14 @@ Grid mixins
     padding-top: 1rem !important;
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .py-xl-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .py-xl-5 {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .py-xl-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; }
@@ -7520,6 +8016,12 @@ Grid mixins
   .pt-xl-4 {
     padding-top: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pt-xl-5 {
+    padding-top: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pt-xl-5 {
+    padding-top: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pt-xl-6 {
     padding-top: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -7591,6 +8093,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pr-xl-4 {
     padding-right: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pr-xl-5 {
+    padding-right: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pr-xl-5 {
+    padding-right: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pr-xl-6 {
     padding-right: 1.5rem; }
@@ -7664,6 +8172,12 @@ Grid mixins
   .pb-xl-4 {
     padding-bottom: 1rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pb-xl-5 {
+    padding-bottom: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pb-xl-5 {
+    padding-bottom: 1.25rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pb-xl-6 {
     padding-bottom: 1.5rem; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -7735,6 +8249,12 @@ Grid mixins
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
   .pl-xl-4 {
     padding-left: 1rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .pl-xl-5 {
+    padding-left: 1.25rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .pl-xl-5 {
+    padding-left: 1.25rem !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .pl-xl-6 {
     padding-left: 1.5rem; }
@@ -8275,6 +8795,16 @@ a img.aligncenter {
   --gutter-y: 1rem; }
 
 /* line 152, efekt/assets/scss/mixin/_grid.scss */
+.g-5,
+.gx-5 {
+  --gutter-x: 1.25rem; }
+
+/* line 157, efekt/assets/scss/mixin/_grid.scss */
+.g-5,
+.gy-5 {
+  --gutter-y: 1.25rem; }
+
+/* line 152, efekt/assets/scss/mixin/_grid.scss */
 .g-6,
 .gx-6 {
   --gutter-x: 1.5rem; }
@@ -8506,6 +9036,14 @@ a img.aligncenter {
   .gy-sm-4 {
     --gutter-y: 1rem; }
   /* line 152, efekt/assets/scss/mixin/_grid.scss */
+  .g-sm-5,
+  .gx-sm-5 {
+    --gutter-x: 1.25rem; }
+  /* line 157, efekt/assets/scss/mixin/_grid.scss */
+  .g-sm-5,
+  .gy-sm-5 {
+    --gutter-y: 1.25rem; }
+  /* line 152, efekt/assets/scss/mixin/_grid.scss */
   .g-sm-6,
   .gx-sm-6 {
     --gutter-x: 1.5rem; }
@@ -8723,6 +9261,14 @@ a img.aligncenter {
   .g-md-4,
   .gy-md-4 {
     --gutter-y: 1rem; }
+  /* line 152, efekt/assets/scss/mixin/_grid.scss */
+  .g-md-5,
+  .gx-md-5 {
+    --gutter-x: 1.25rem; }
+  /* line 157, efekt/assets/scss/mixin/_grid.scss */
+  .g-md-5,
+  .gy-md-5 {
+    --gutter-y: 1.25rem; }
   /* line 152, efekt/assets/scss/mixin/_grid.scss */
   .g-md-6,
   .gx-md-6 {
@@ -8942,6 +9488,14 @@ a img.aligncenter {
   .gy-lg-4 {
     --gutter-y: 1rem; }
   /* line 152, efekt/assets/scss/mixin/_grid.scss */
+  .g-lg-5,
+  .gx-lg-5 {
+    --gutter-x: 1.25rem; }
+  /* line 157, efekt/assets/scss/mixin/_grid.scss */
+  .g-lg-5,
+  .gy-lg-5 {
+    --gutter-y: 1.25rem; }
+  /* line 152, efekt/assets/scss/mixin/_grid.scss */
   .g-lg-6,
   .gx-lg-6 {
     --gutter-x: 1.5rem; }
@@ -9159,6 +9713,14 @@ a img.aligncenter {
   .g-xl-4,
   .gy-xl-4 {
     --gutter-y: 1rem; }
+  /* line 152, efekt/assets/scss/mixin/_grid.scss */
+  .g-xl-5,
+  .gx-xl-5 {
+    --gutter-x: 1.25rem; }
+  /* line 157, efekt/assets/scss/mixin/_grid.scss */
+  .g-xl-5,
+  .gy-xl-5 {
+    --gutter-y: 1.25rem; }
   /* line 152, efekt/assets/scss/mixin/_grid.scss */
   .g-xl-6,
   .gx-xl-6 {
