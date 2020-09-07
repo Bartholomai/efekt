@@ -215,6 +215,7 @@ $utilities: (
     )
   ),
   "height": (
+    responsive: true,
     property: height,
     class: h,
     values: (
@@ -222,6 +223,15 @@ $utilities: (
       100: 100%,
       auto: auto,
       8: $gap-8
+    )
+  ),
+  "max-height": (
+    responsive: true,
+    property: max-height,
+    class: mh,
+    values: (
+      100: 100%,
+      12: $gap-12
     )
   ),
   // Flex utilities
@@ -254,6 +264,7 @@ $utilities: (
   "justify-content": (
     responsive: true,
     property: justify-content,
+    class: justify,
     values: (
       start: flex-start,
       end: flex-end,
@@ -265,6 +276,7 @@ $utilities: (
   "align-items": (
     responsive: true,
     property: align-items,
+    class: items,
     values: (
       start: flex-start,
       end: flex-end,

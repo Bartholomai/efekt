@@ -96,6 +96,7 @@ function add_excerpt_to_pages(){
 }
 add_action('init', 'add_excerpt_to_pages');
 
+// check if the taxonomy has a Category Thumbnail assigned to it.
 
 /*------------------------------------*\
 	Theme Support
@@ -111,6 +112,9 @@ if (function_exists('add_theme_support'))
     // Add Menu Support
     add_theme_support('menus');
 
+    // Add Category Thumbnail Theme Support
+    add_theme_support('category-thumbnails');
+
     // Add Thumbnail Theme Support
     add_theme_support('post-thumbnails');
     add_image_size('large', 700, '', true); // Large Thumbnail
@@ -118,6 +122,7 @@ if (function_exists('add_theme_support'))
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 
+    
     // Add Support for Custom Backgrounds - Uncomment below if you're going to use
     /*add_theme_support('custom-background', array(
 	'default-color' => 'FFF',
@@ -531,7 +536,6 @@ function manufacturer_post_type() {
         'show_in_rest' 				=> true,
         'supports'            => array( 'title', 'thumbnail', 'editor'),
         'taxonomies' => array(
-            'post_tag',
             'category'
         ),
         'hierarchical'        => true,
@@ -549,7 +553,6 @@ function manufacturer_post_type() {
         'capability_type'     => 'post',
     );
     register_taxonomy_for_object_type('category', 'manufacturer');
-    register_taxonomy_for_object_type('post_tag', 'manufacturer');
     register_post_type( 'producenci', $args );
 }
 

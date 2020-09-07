@@ -193,6 +193,22 @@ Grid mixins
   height: 2rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.mh-100 {
+  max-height: 100%; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.mh-100 {
+  max-height: 100% !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.mh-12 {
+  max-height: 3rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.mh-12 {
+  max-height: 3rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .flex-fill {
   flex: 1 1 auto; }
 
@@ -257,83 +273,83 @@ Grid mixins
   flex-wrap: wrap-reverse !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-start {
+.justify-start {
   justify-content: flex-start; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-start {
+.justify-start {
   justify-content: flex-start !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-end {
+.justify-end {
   justify-content: flex-end; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-end {
+.justify-end {
   justify-content: flex-end !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-center {
+.justify-center {
   justify-content: center; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-center {
+.justify-center {
   justify-content: center !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-between {
+.justify-between {
   justify-content: space-between; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-between {
+.justify-between {
   justify-content: space-between !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-around {
+.justify-around {
   justify-content: space-around; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.justify-content-around {
+.justify-around {
   justify-content: space-around !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.align-items-start {
+.items-start {
   align-items: flex-start; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.align-items-start {
+.items-start {
   align-items: flex-start !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.align-items-end {
+.items-end {
   align-items: flex-end; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.align-items-end {
+.items-end {
   align-items: flex-end !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.align-items-center {
+.items-center {
   align-items: center; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.align-items-center {
+.items-center {
   align-items: center !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.align-items-baseline {
+.items-baseline {
   align-items: baseline; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.align-items-baseline {
+.items-baseline {
   align-items: baseline !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
-.align-items-stretch {
+.items-stretch {
   align-items: stretch; }
 
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
-.align-items-stretch {
+.items-stretch {
   align-items: stretch !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
@@ -2538,6 +2554,42 @@ Grid mixins
   .d-sm-inline-flex {
     display: inline-flex !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-1 {
+    height: 1%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-1 {
+    height: 1% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-100 {
+    height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-100 {
+    height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-auto {
+    height: auto; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-auto {
+    height: auto !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-8 {
+    height: 2rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-sm-8 {
+    height: 2rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-sm-100 {
+    max-height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-sm-100 {
+    max-height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-sm-12 {
+    max-height: 3rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-sm-12 {
+    max-height: 3rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .flex-sm-fill {
     flex: 1 1 auto; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -2586,64 +2638,64 @@ Grid mixins
   .flex-sm-wrap-reverse {
     flex-wrap: wrap-reverse !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-start {
+  .justify-sm-start {
     justify-content: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-start {
+  .justify-sm-start {
     justify-content: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-end {
+  .justify-sm-end {
     justify-content: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-end {
+  .justify-sm-end {
     justify-content: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-center {
+  .justify-sm-center {
     justify-content: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-center {
+  .justify-sm-center {
     justify-content: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-between {
+  .justify-sm-between {
     justify-content: space-between; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-between {
+  .justify-sm-between {
     justify-content: space-between !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-around {
+  .justify-sm-around {
     justify-content: space-around; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-sm-around {
+  .justify-sm-around {
     justify-content: space-around !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-start {
+  .items-sm-start {
     align-items: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-start {
+  .items-sm-start {
     align-items: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-end {
+  .items-sm-end {
     align-items: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-end {
+  .items-sm-end {
     align-items: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-center {
+  .items-sm-center {
     align-items: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-center {
+  .items-sm-center {
     align-items: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-baseline {
+  .items-sm-baseline {
     align-items: baseline; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-baseline {
+  .items-sm-baseline {
     align-items: baseline !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-stretch {
+  .items-sm-stretch {
     align-items: stretch; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-sm-stretch {
+  .items-sm-stretch {
     align-items: stretch !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .order-sm-first {
@@ -3992,6 +4044,42 @@ Grid mixins
   .d-md-inline-flex {
     display: inline-flex !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-1 {
+    height: 1%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-1 {
+    height: 1% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-100 {
+    height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-100 {
+    height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-auto {
+    height: auto; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-auto {
+    height: auto !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-8 {
+    height: 2rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-md-8 {
+    height: 2rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-md-100 {
+    max-height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-md-100 {
+    max-height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-md-12 {
+    max-height: 3rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-md-12 {
+    max-height: 3rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .flex-md-fill {
     flex: 1 1 auto; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -4040,64 +4128,64 @@ Grid mixins
   .flex-md-wrap-reverse {
     flex-wrap: wrap-reverse !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-start {
+  .justify-md-start {
     justify-content: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-start {
+  .justify-md-start {
     justify-content: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-end {
+  .justify-md-end {
     justify-content: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-end {
+  .justify-md-end {
     justify-content: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-center {
+  .justify-md-center {
     justify-content: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-center {
+  .justify-md-center {
     justify-content: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-between {
+  .justify-md-between {
     justify-content: space-between; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-between {
+  .justify-md-between {
     justify-content: space-between !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-around {
+  .justify-md-around {
     justify-content: space-around; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-md-around {
+  .justify-md-around {
     justify-content: space-around !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-start {
+  .items-md-start {
     align-items: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-start {
+  .items-md-start {
     align-items: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-end {
+  .items-md-end {
     align-items: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-end {
+  .items-md-end {
     align-items: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-center {
+  .items-md-center {
     align-items: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-center {
+  .items-md-center {
     align-items: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-baseline {
+  .items-md-baseline {
     align-items: baseline; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-baseline {
+  .items-md-baseline {
     align-items: baseline !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-stretch {
+  .items-md-stretch {
     align-items: stretch; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-md-stretch {
+  .items-md-stretch {
     align-items: stretch !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .order-md-first {
@@ -5446,6 +5534,42 @@ Grid mixins
   .d-lg-inline-flex {
     display: inline-flex !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-1 {
+    height: 1%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-1 {
+    height: 1% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-100 {
+    height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-100 {
+    height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-auto {
+    height: auto; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-auto {
+    height: auto !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-8 {
+    height: 2rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-lg-8 {
+    height: 2rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-lg-100 {
+    max-height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-lg-100 {
+    max-height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-lg-12 {
+    max-height: 3rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-lg-12 {
+    max-height: 3rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .flex-lg-fill {
     flex: 1 1 auto; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -5494,64 +5618,64 @@ Grid mixins
   .flex-lg-wrap-reverse {
     flex-wrap: wrap-reverse !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-start {
+  .justify-lg-start {
     justify-content: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-start {
+  .justify-lg-start {
     justify-content: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-end {
+  .justify-lg-end {
     justify-content: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-end {
+  .justify-lg-end {
     justify-content: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-center {
+  .justify-lg-center {
     justify-content: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-center {
+  .justify-lg-center {
     justify-content: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-between {
+  .justify-lg-between {
     justify-content: space-between; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-between {
+  .justify-lg-between {
     justify-content: space-between !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-around {
+  .justify-lg-around {
     justify-content: space-around; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-lg-around {
+  .justify-lg-around {
     justify-content: space-around !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-start {
+  .items-lg-start {
     align-items: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-start {
+  .items-lg-start {
     align-items: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-end {
+  .items-lg-end {
     align-items: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-end {
+  .items-lg-end {
     align-items: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-center {
+  .items-lg-center {
     align-items: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-center {
+  .items-lg-center {
     align-items: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-baseline {
+  .items-lg-baseline {
     align-items: baseline; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-baseline {
+  .items-lg-baseline {
     align-items: baseline !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-stretch {
+  .items-lg-stretch {
     align-items: stretch; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-lg-stretch {
+  .items-lg-stretch {
     align-items: stretch !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .order-lg-first {
@@ -6900,6 +7024,42 @@ Grid mixins
   .d-xl-inline-flex {
     display: inline-flex !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-1 {
+    height: 1%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-1 {
+    height: 1% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-100 {
+    height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-100 {
+    height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-auto {
+    height: auto; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-auto {
+    height: auto !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-8 {
+    height: 2rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .h-xl-8 {
+    height: 2rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-xl-100 {
+    max-height: 100%; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-xl-100 {
+    max-height: 100% !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
+  .mh-xl-12 {
+    max-height: 3rem; }
+  /* line 57, efekt/assets/scss/mixin/_grid.scss */
+  .mh-xl-12 {
+    max-height: 3rem !important; }
+  /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .flex-xl-fill {
     flex: 1 1 auto; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
@@ -6948,64 +7108,64 @@ Grid mixins
   .flex-xl-wrap-reverse {
     flex-wrap: wrap-reverse !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-start {
+  .justify-xl-start {
     justify-content: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-start {
+  .justify-xl-start {
     justify-content: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-end {
+  .justify-xl-end {
     justify-content: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-end {
+  .justify-xl-end {
     justify-content: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-center {
+  .justify-xl-center {
     justify-content: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-center {
+  .justify-xl-center {
     justify-content: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-between {
+  .justify-xl-between {
     justify-content: space-between; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-between {
+  .justify-xl-between {
     justify-content: space-between !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-around {
+  .justify-xl-around {
     justify-content: space-around; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .justify-content-xl-around {
+  .justify-xl-around {
     justify-content: space-around !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-start {
+  .items-xl-start {
     align-items: flex-start; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-start {
+  .items-xl-start {
     align-items: flex-start !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-end {
+  .items-xl-end {
     align-items: flex-end; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-end {
+  .items-xl-end {
     align-items: flex-end !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-center {
+  .items-xl-center {
     align-items: center; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-center {
+  .items-xl-center {
     align-items: center !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-baseline {
+  .items-xl-baseline {
     align-items: baseline; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-baseline {
+  .items-xl-baseline {
     align-items: baseline !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-stretch {
+  .items-xl-stretch {
     align-items: stretch; }
   /* line 57, efekt/assets/scss/mixin/_grid.scss */
-  .align-items-xl-stretch {
+  .items-xl-stretch {
     align-items: stretch !important; }
   /* line 49, efekt/assets/scss/mixin/_grid.scss */
   .order-xl-first {

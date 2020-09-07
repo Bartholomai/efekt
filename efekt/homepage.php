@@ -53,7 +53,17 @@
                 'orderby'    => 'ASC',                              
             ) ); ?> 
           </ul>
-        </div>  
+        </div>
+        <?php $category = get_the_category(); 
+		if($category[0]){
+	    $link = get_category_link($category[0]->term_id );
+	    $cat_name = $category[0]->cat_name;
+	    $thumbnail = the_post_thumbnail('thumbnail');
+
+	    echo "<a href='$link'>$cat_name $thumbnail</a>";
+	} ?>
+        
+        
       </div>
     </section>
   </main>
