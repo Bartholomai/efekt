@@ -548,10 +548,10 @@ function manufacturer_post_type() {
         'publicly_queryable'  => true,
         'capability_type'     => 'post',
     );
-    register_taxonomy_for_object_type('chuj', 'manufacturer');
+    register_taxonomy_for_object_type('category', 'manufacturer');
     register_taxonomy_for_object_type('post_tag', 'manufacturer');
     register_post_type( 'producenci', $args );
-} 
+}
 
 function themeprefix_show_cpt_archives( $query ) {
     if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
@@ -562,6 +562,8 @@ function themeprefix_show_cpt_archives( $query ) {
     }
    }
    add_filter( 'pre_get_posts', 'themeprefix_show_cpt_archives' );
+
+
 
 /*------------------------------------*\
 	ShortCode Functions
