@@ -145,6 +145,14 @@ Grid mixins
   width: 1% !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
+.w-50 {
+  width: 50%; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.w-50 {
+  width: 50% !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
 .w-100 {
   width: 100%; }
 
@@ -2083,6 +2091,14 @@ Grid mixins
 /* line 57, efekt/assets/scss/mixin/_grid.scss */
 .pl-20 {
   padding-left: 5rem !important; }
+
+/* line 49, efekt/assets/scss/mixin/_grid.scss */
+.font-base {
+  font-size: 1rem; }
+
+/* line 57, efekt/assets/scss/mixin/_grid.scss */
+.font-base {
+  font-size: 1rem !important; }
 
 /* line 49, efekt/assets/scss/mixin/_grid.scss */
 .font-md {

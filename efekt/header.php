@@ -21,7 +21,7 @@
     </script>
 	</head>
 	<body <?php body_class(); ?>>
-    <header class="header-page border-bottom clear" role="banner">
+    <header class="header-page clear" role="banner">
       <div class="container">
         <div class="row">
           <div class="col-6 col-sm-2">

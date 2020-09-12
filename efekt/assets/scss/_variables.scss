@@ -1,8 +1,9 @@
 $google-font: 'Open+Sans';
 $font-family: $google-font, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 
+$font-size-md: 1.125rem; //18px
 $font-size-base: 1rem; //16px
-$font-size-base-md: 1.125rem; //18px
+
 $line-height-base: 2rem / $font-size-base;
 $line-height-sm: 1.5rem; //24px
 $line-height-md: 2rem; //32px
@@ -210,6 +211,7 @@ $utilities: (
     class: w,
     values: (
       1: 1%,
+      50: 50%,
       100: 100%,
       auto: auto
     )
@@ -438,7 +440,8 @@ $utilities: (
       property: font-size,
       class: font,
       values: (
-        md: $font-size-base-md,
+        base: $font-size-base,
+        md: $font-size-md,
         lg: $h3-font-size
       )
   ),

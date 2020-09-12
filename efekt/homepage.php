@@ -42,29 +42,38 @@
           </div>
         </div>
       </div>
-    </section>
-
+    </section>            
     <section class="section-icon pt-sm-12 my-sm-12 my-md-16">
       <div class="container">
-        <div class="row">
-          <ul>
-            <?php wp_list_categories( array(
-                'taxonomy'    > 'producenci',
-                'orderby'    => 'ASC',                              
-            ) ); ?> 
-          </ul>
+        <div class="row mb-16 mb-md-32">    
+            <div class="col">
+            <header class="text-center">
+              <h2>Producenci</h2>
+            </header>
+            </div>
         </div>
-        <?php $category = get_the_category(); 
-		if($category[0]){
-	    $link = get_category_link($category[0]->term_id );
-	    $cat_name = $category[0]->cat_name;
-	    $thumbnail = the_post_thumbnail('thumbnail');
+        <div class="row">
+          <div class="col-12 col-md-10 offset-md-1">
+            <?php
+              $args = array( 'hide_empty' => '0');
+              $categories = get_categories($args);
+              if($categories){
+                echo '<div class="row justify-center">';
+                foreach($categories as $category) {
+                  $link = get_term_link($category);
+                  echo '<div class="col-6 col-md-4 mb-8 text-center"><a href="'.$link.'" class="d-flex flex-column justify-center w-50">';
+                  $size = "thumbnail";
+                  $image = get_field('image', 'category_'.$category->term_id);    
+                  echo '<img src="' . $image . '" />'; 
+                  echo '<p class="mt-4 font-size-base">' . $category->name . '</p>';
+                  echo '</a></div>';
+                } 
+                echo '</div>';
+              }    
 
-	    echo "<a href='$link'>$cat_name $thumbnail</a>";
-	} ?>
-        
-        
-      </div>
+              ?>
+            </div>
+        </div>
     </section>
   </main>
   
