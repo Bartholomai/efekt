@@ -1,9 +1,4 @@
 <?php
-/*
- *  Author: Todd Motto | @toddmotto
- *  URL: html5blank.com | @html5blank
- *  Custom functions, support, custom post types and more.
- */
 
 /*------------------------------------*\
 	External Modules/Files
@@ -27,7 +22,7 @@ function insert_fb_in_head() {
     echo '<meta property="og:url" content="' . get_permalink() . '"/>';
     echo '<meta property="og:site_name" content="TechTir - Tuning Pro"/>';
   if(!has_post_thumbnail( $post->ID )) {
-    $default_image="https://techtir.pl/wp-content/uploads/2020/04/fb-og.jpg";
+    $default_image="https://efekt-zebrzydowice.pl/wp-content/uploads/2020/09/og.jpg";
     echo '<meta property="og:image" content="' . $default_image . '"/>';
   }
   else{

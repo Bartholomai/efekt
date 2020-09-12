@@ -32,7 +32,7 @@
             if( $jobs->have_posts() ){
               while( $jobs->have_posts() ):
                 $jobs->the_post();
-                echo '<article class="col-12 offset-md-3 col-md-6 mb-8 text-center">';
+                echo '<article class="col-12 offset-md-3 col-md-6 mb-4 mb-md-8 text-center">';
                 echo '<header class="mb-4"><h2>'.get_the_title().'</h2></header><p class="font-size-lg lh-lg">'.get_the_excerpt().'</p></article>';
               endwhile;
             }
@@ -56,7 +56,7 @@
       <div class="container">
         <div class="row mb-16 justify-center text-center">    
             <div class="col-12 col-md-6">
-            <header class="mb-8">
+            <header class="mb-4 mb-md-8">
               <h2>Produkty</h2>
             </header>
             <p class="font-size-lg lh-lg">Wybierz produkt, który Cię interesuję a my dostarczymy go do Ciebie tak szybko jak będzie to moliwe.</p>
@@ -80,7 +80,6 @@
                 } 
                 echo '</div>';
               }    
-
             ?>
           </div>
         </div>
@@ -100,14 +99,24 @@
     <section class="my-16 my-md-32">
       <div class="container">
       <div class="row justify-center">    
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 offset-md-1">
+              <img src="https://efekt-zebrzydowice.pl/wp-content/uploads/2020/09/efekt-dostawa.jpg" class="img-fluid mb-4 mb-md-0 rounded"/>
               <?php if( get_field('img_delivery-section') ): ?>
-                <img src="<?php the_field('img_delivery-section'); ?>" />
-              <?php endif; ?>
+                <img src="<?php the_field('img_delivery-section'); ?>" class="img-fluid mb-4 mb-md-0 rounded" />                
+              <?php endif; ?>            
             </div>
-            <div class="col-12 col-md-8">                            
+            <div class="col-12 col-md-6 text-center text-md-left">
+              <h2 class="mb-4 mb-md-8">
+                Zapewniamy dostawę
+              </h2>
+              <p class="font-size-lg lh-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit dolor magna eget est lorem.
+              </p>
                 <?php if( get_field('title_delivery-section') ): ?>
-                  <h2 class="mb-8"><?php the_field('title_delivery-section'); ?></h2>
+                  <h2 class="mb-4 mb-md-8">
+                    Zapewniamy dostawę
+                    <?php the_field('title_delivery-section'); ?>
+                  </h2>
                 <?php endif; ?>              
                 <?php if( get_field('text_delivery-section') ): ?>
                   <p class="font-size-lg lh-lg"><?php the_field('text_delivery-section'); ?></p>
@@ -129,7 +138,7 @@
       <div class="container">
         <div class="row mb-16 justify-center text-center">    
             <div class="col-12 col-md-6">
-            <header class="mb-8">
+            <header class="mb-4 mb-md-8">
               <h2>Napisz do nas</h2>
             </header>
             <p class="font-size-lg lh-lg">Z największą przyjemnością odpowiemy na Twoje pytania.</p>
