@@ -25,3 +25,11 @@
     padding-left: 3.2rem;
   }
 }
+
+.card-hover {
+  @include transition(box-shadow .25s)
+  
+  &:hover {
+    box-shadow: 0 .8rem 2.4rem rgba($color-black, .175);
+  }
+}

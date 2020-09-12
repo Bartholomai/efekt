@@ -49,3 +49,11 @@ li {
   line-height: 2rem;
   font-weight: $font-weight-normal;
 }
+
+.link-hover {
+  @include transition(color .3s ease-in-out);
+
+  &:hover {
+    color: $color-primary;
+  }
+}

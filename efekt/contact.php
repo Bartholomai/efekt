@@ -26,6 +26,14 @@
                 </h2>
               </article>
             <?php endif; ?>
+          </div>            
+        </div>
+        <div class="row mt-16 mt-md-32">  
+          <div class="col-12 offset-md-2 col-md-8">
+              <h2 class="mb-8">Napisz do nas</h2>
+          </div>              
+		      <div class="col-12 offset-md-2 col-md-8">
+          <?php echo do_shortcode(" [contact-form-7 id='169' title='Formularz kontaktowy na podstronie kontakt'] "); ?>
           </div>
         </div>
       </div>

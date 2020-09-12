@@ -1,0 +1,27 @@
+.sidebar {    
+    list-style: none;
+
+    ul, ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    .cat-item {
+        @include transition(border-color .3s ease-in-out);
+        margin-bottom: 0;
+        padding-top: $gap-1;
+        padding-bottom: $gap-1;
+        padding-left: $gap-4;
+        border-left: 2px solid $color-bg-gray;
+
+        &:hover,
+        &.current-cat {
+            border-left-color: $color-primary;
+            color: $color-primary;
+        }
+
+        &.current-cat a {
+            cursor: default;
+        }
+    }
+}

@@ -27,7 +27,7 @@ $color-violet: #7d37e9;
 $color-body: #0D0E10;
 $color-bg: #e5ebf2;
 $color-bg-light: #f7faff;
-$color-bg-gray: #b1badd;
+$color-bg-gray: #dddddd;
 $color-bg-grey-light: #f0f4ff;
 $color-interactive: $color-primary;
 $color-primary-inactive: #96bae7;
@@ -99,6 +99,7 @@ $gap-14: 3.5rem; //56px
 $gap-16: 4rem; //64px
 $gap-18: 4.5rem; //72px
 $gap-20: 5rem; //80px
+$gap-32: 8rem; //128px
 
 $spacers: (
     0: $gap-0,
@@ -114,6 +115,7 @@ $spacers: (
     16: $gap-16,
     18: $gap-18,
     20: $gap-20,
+    32: $gap-32,
 );
 
 $negative-spacers: null;
@@ -438,7 +440,7 @@ $utilities: (
   //Text utilities
   "font-size": (
       property: font-size,
-      class: font,
+      class: font-size,
       values: (
         base: $font-size-base,
         md: $font-size-md,

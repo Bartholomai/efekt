@@ -6,10 +6,10 @@
   <section class="mt-16">
     <div class="container">
       <div class="row">
-        <header class="col-12 col-md-8 offset-md-2">
+        <header class="col-12">
           <h1 class="mb-8 mb-md-16"><?php the_title(); ?></h1>
         </header>
-        <div class="col-12 col-md-8 offset-md-2">
+        <div class="col-12">
           <?php if (have_posts()): while (have_posts()) : the_post(); ?>
             <article id="post-<?php the_ID(); ?>" class="article" <?php post_class(); ?> >
               <?php the_content(); ?>
@@ -27,11 +27,11 @@
       </div>
     </div>
   </section>
-  
+
   <section class="section-icon mt-16">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
+        <div class="col-12">
           <?php
             $args = array(
               'post_type' => 'producenci',
@@ -46,8 +46,8 @@
                 $jobs->the_post();
                 echo '<div class="col-6 col-md-3 mb-8">';
                 echo '<figure class="mb-8 text-center">';
-                echo '<a href="'.get_field('url_manufacturer').'" target="_blank"><div>';
-                echo the_post_thumbnail('full', array('class' => 'h-8 mb-5')).'</div><figcaption class="font-md lh-md">'.get_the_title().'</figcaption></figure></div>';
+                echo '<a href="'.get_field('url_manufacturer').'" target="_blank"><div class="d-flex justify-center items-center h-100 mb-5 p-4 card-hover border rounded">';
+                echo the_post_thumbnail('full', array('class' => 'h-8')).'</div><figcaption class="font-md lh-md">'.get_the_title().'</figcaption></figure></div>';
               endwhile;
               echo '</div>';
             }
