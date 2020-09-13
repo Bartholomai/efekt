@@ -105,13 +105,14 @@
                 <img src="<?php the_field('img_delivery-section'); ?>" class="img-fluid mb-4 mb-md-0 rounded" />                
               <?php endif; ?>            
             </div>
-            <div class="col-12 col-md-6 text-center text-md-left">
-              <h2 class="mb-4 mb-md-8">
-                Zapewniamy dostawę
-              </h2>
-              <p class="font-size-lg lh-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit dolor magna eget est lorem.
-              </p>
+            <div class="col-12 col-md-6 text-center text-md-left d-flex items-center">
+              <div>
+                <h2 class="mb-4 mb-md-8">
+                  Zapewniamy dostawę
+                </h2>
+                <p class="font-size-lg lh-lg mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit dolor magna eget est lorem.
+                </p>
                 <?php if( get_field('title_delivery-section') ): ?>
                   <h2 class="mb-4 mb-md-8">
                     Zapewniamy dostawę
@@ -121,6 +122,7 @@
                 <?php if( get_field('text_delivery-section') ): ?>
                   <p class="font-size-lg lh-lg"><?php the_field('text_delivery-section'); ?></p>
                 <?php endif; ?>
+              </div>
             </div>
         </div>
       </div>

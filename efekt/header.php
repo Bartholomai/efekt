@@ -20,7 +20,10 @@
       });
     </script>
 	</head>
-	<body <?php body_class(); ?>>
+  <body <?php body_class(); ?>>
+    <a href="https://www.facebook.com/FHU-EFEKT-SC-1591147137852496" target="_blank" class="fb-logo">
+      <img src="https://efekt-zebrzydowice.pl/wp-content/uploads/2020/09/fb-logo.png">
+    </a>
     <header class="header-page clear" role="banner">
       <div class="container">
         <div class="row">

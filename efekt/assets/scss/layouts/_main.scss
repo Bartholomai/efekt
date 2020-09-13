@@ -1,0 +1,14 @@
+.fb-logo {
+    @include transition(all .3s ease-in-out);
+    position: fixed;
+    right: .75rem;
+    bottom: 6rem;
+    z-index: 9;
+    max-width: 3rem;
+    background-color: #fff;
+    border-radius: 50%;
+
+    &:hover {
+        transform: rotate(360deg);
+    }
+}

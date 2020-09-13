@@ -7,13 +7,12 @@
     <div class="container">
       <div class="row">
         <header class="col-12">
-          <h1 class="mb-8 mb-md-16"><?php the_title(); ?></h1>
+          <h1 class="mb-4"><?php the_title(); ?></h1>
         </header>
         <div class="col-12">
           <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-            <article id="post-<?php the_ID(); ?>" class="article" <?php post_class(); ?> >
-              <?php the_content(); ?>
-              <?php edit_post_link(); ?>
+            <article id="post-<?php the_ID(); ?>" class="font-size-base lh-base" <?php post_class(); ?> >
+              <?php the_content(); ?>              
             </article>
           <?php endwhile; ?>
           <?php else: ?>
