@@ -20,7 +20,7 @@ function insert_fb_in_head() {
     echo '<meta property="og:title" content="' . get_the_title() . '"/>';
     echo '<meta property="og:type" content="article"/>';
     echo '<meta property="og:url" content="' . get_permalink() . '"/>';
-    echo '<meta property="og:site_name" content="TechTir - Tuning Pro"/>';
+    echo '<meta property="og:site_name" content="Efekt - Zebrzydowice"/>';
   if(!has_post_thumbnail( $post->ID )) {
     $default_image="https://efekt-zebrzydowice.pl/wp-content/uploads/2020/09/og.jpg";
     echo '<meta property="og:image" content="' . $default_image . '"/>';
@@ -117,7 +117,7 @@ if (function_exists('add_theme_support'))
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 
-    
+
     // Add Support for Custom Backgrounds - Uncomment below if you're going to use
     /*add_theme_support('custom-background', array(
 	'default-color' => 'FFF',
@@ -518,9 +518,9 @@ function manufacturer_post_type() {
         'search_items'        => 'Szukaj',
         'not_found'           => 'Nie znaleziono',
         'not_found_in_trash'  => 'Nie znaleziono'
-	); 
+	);
 	$args = array(
-        'orderby'           => 'name', 
+        'orderby'           => 'name',
         'order'             => 'ASC',
         'label' => 'manufacturer',
         'rewrite' => array(
@@ -534,7 +534,7 @@ function manufacturer_post_type() {
             'category'
         ),
         'hierarchical'        => true,
-        'public'              => true, 
+        'public'              => true,
         'show_ui'             => true,
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,

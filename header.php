@@ -29,8 +29,8 @@
         <div class="row">
           <div class="col-6 col-sm-2">
             <a href="<?php echo home_url(); ?>" class="logo ">
-              <img src="<?php echo get_template_directory_uri(); ?>/svg/techtir-logo-light.svg" alt="TechTir - Logo" class="logo-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/svg/techtir-logo-square-light.svg" alt="TechTir - Logo" class="logo-img-mobile">
+              <img src="<?php echo get_template_directory_uri(); ?>/svg/efekt-logo-light.svg" alt="Efekt - Logo" class="logo-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/svg/efekt-logo-square-light.svg" alt="Efekt - Logo" class="logo-img-mobile">
             </a>
           </div>
           <div class="col-6 col-sm-10">
